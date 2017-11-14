@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Athiti');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 
 
 
@@ -155,7 +156,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #777777;
-  font-family: 'Athiti', sans-serif;
+  font-family: 'Slabo 27px', serif;
   letter-spacing: 1px;
   overflow-x: hidden;
 }
@@ -254,8 +255,8 @@ hr {
   width: 23%;
   height: 100%;
   position: fixed;
-  background-color: black;
-  /*background-image: url("../img/side.jpeg");*/
+  background-color: white;
+  background-image: url("../img/banner.jpeg");
   color: white;
   overflow-y: hidden;
     background-repeat: no-repeat;
@@ -293,19 +294,25 @@ h3.profile-title {
   text-align: center;
   color: white;
   font-size: 20px;
-  font-family: 'Athiti', sans-serif;
+  font-family: 'Slabo 27px', serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  /*background: #463636;*/
+  padding: 4px;
 }
 
 p.profile-description {
   text-align: center;
   color: white;
+
 }
 
 
 @media screen and (max-width: 992px) {
   h3.profile-title {
     margin-bottom: 5px;
-    color: #bbb8b8;
+    color: white;
   }
   p.profile-description {
     color: #bbb8b8;
@@ -323,8 +330,10 @@ p.profile-description {
   display: block;
   color: white;
   font-size: 14px;
-  margin: 10px 10px 0 10px;
-  background: #27272b;
+  /*margin: 10px 10px 0 10px;*/
+  background-color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+  letter-spacing: 2px;
 }
 .main-navigation li a i {
   margin-right: 15px;
@@ -350,7 +359,7 @@ p.profile-description {
 }
 .social-icons li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 5px;
 }
 .social-icons a {
   font-size: 18px;
@@ -363,7 +372,7 @@ p.profile-description {
 .responsive-header {
   background: #161616;
   text-align: center;
-  /*background-image: url("../img/banner.jpeg");*/
+  background-image: url("../img/banner.jpeg");
 }
 @media screen and (max-width: 992px) {
   .responsive-header .main-navigation {
@@ -792,3 +801,19 @@ div.progress-bar {
   line-height: 22px;
 }
 
+.fa {
+  color: #27272b;
+}
+
+.fa-inverse {
+    color: #fff;
+}
+
+.fa.fa-globe,
+.fa.fa-pencil,
+.fa.fa-file-code-o,
+.fa.fa-paperclip,
+.fa.fa-envelope,
+.fa.fa-download {
+  color: white;
+}
